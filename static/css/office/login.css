@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-image: url('../../assets/images/loginBG.jpg');
+}
+
+.logo{
+    width: fit-content;
+    text-align: center;
+}
+
+.logo img{
+    width: 26%;
+    margin-top: -17%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+label{
+    display: block;
+    width: 80px;
+    text-align: justify;
+}
+
+.loginCard{
+    position: absolute;
+    top: 30vh;
+    width: 300px;
+    height: auto;
+    margin-left: 40vw;
+    padding: 10px 24px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255,0.84);
+    box-shadow: 2px 2px 14px 2px rgb(201, 201, 201);
+    z-index: 999;
+}
+
+.loginCard .passwd{
+    margin-left: 14px;
+}
+
+.loginCard .submit{
+    cursor: pointer;
+}
+
+.bgMask{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(61, 61, 61, 0.6);
+}

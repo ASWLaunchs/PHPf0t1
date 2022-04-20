@@ -1,0 +1,34 @@
+.carousel-img {
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+}
+
+.carousel-img:nth-child(1) {
+    background-image: url("../../assets/images/office/wallhaven-8oky1j.jpg");
+}
+
+.carousel-img:nth-child(2) {
+    background-image: url("../../assets/images/office/wallhaven-wqve97.png");
+}
+
+.carousel-img:nth-child(3) {
+    background-image: url("../../assets/images/office/wallhaven-z8dg9y.png");
+}
+
+#loading{
+    display: none;
+}
+
+
+.card-item {
+    width: 15.6rem !important;
+    margin: 8px auto;
+}
+
+@media screen and (max-width:500px) {
+    .card-item {
+        width: unset !important;
+        margin: 8px auto;
+    }
+}
